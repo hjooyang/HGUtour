@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="학식" />
+        
+        <TextView
+            android:id="@+id/kote_breakfast"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="아침" />
+        
+        <TextView
+            android:id="@+id/kote_lunch"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="점심" />
+        
+        <TextView
+            android:id="@+id/kote_dinner"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="저녁" />
+        
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="fryfry" />
+        
+        <TextView
+            android:id="@+id/fryfry"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="fryfry" />
+        
+        <TextView
+           android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="noodleroad" />
+        
+        <TextView
+            android:id="@+id/noodleroad"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="noodleroad" />"
+         
+        <TextView
+           android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="hao" />
+        
+        <TextView
+            android:id="@+id/hao"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="hao" />
+        
+        <TextView
+           android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="gracegarden" />
+        
+        <TextView
+            android:id="@+id/gracegarden"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:typeface="monospace"
+            android:textColorLink="@color/white"
+            android:text="gracegarden" />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

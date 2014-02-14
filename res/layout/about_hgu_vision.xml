@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yakdoScrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    >
+
+	    <ImageView
+	        android:id="@+id/vision_img01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img01"
+	        android:layout_marginTop="-12dp"
+	        android:layout_marginBottom="-20dp"   />
+	
+	    <ImageView
+	        android:id="@+id/vision_img02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img02"
+	       
+	        android:layout_marginBottom="-30dp"  />
+	
+	    <ImageView
+	        android:id="@+id/vision_img03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img03"
+	        android:layout_marginBottom="-40dp"  />
+	
+	    <ImageView
+	        android:id="@+id/vision_img04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img04"
+	        android:layout_marginBottom="-40dp"  />
+	    
+	    <ImageView
+	        android:id="@+id/vision_img05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img05"
+	        android:layout_marginBottom="-30dp"  />
+	    
+	    <ImageView
+	        android:id="@+id/vision_img06"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img06"
+	        android:layout_marginBottom="-30dp"  />
+	    
+	    <ImageView
+	        android:id="@+id/vision_img07"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/vision_img07"
+	        android:layout_marginBottom="-30dp" />
+	
+	</LinearLayout>
+</ScrollView>

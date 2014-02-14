@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">beta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="calcul_sub1">Subject</string>
+	<string name="calcul_sub2">Grade</string>
+	<string name="calcul_sub3">Credit</string>
+	<string name="calcul_sub4">Major</string>
+	<string name="cal_addsubj">Add subject</string>
+	<string name="cal_execute">Execute</string>
+	<string name="cal_choice">Choice</string>
+	<string name="setting_hisinfo">Hisnet Info</string>
+	<string name="hisnet">HISNET</string>
+	<string name="library">LIBRARY</string>
+	<string name="hguapp">HGUAPP</string>
+	
+</resources>

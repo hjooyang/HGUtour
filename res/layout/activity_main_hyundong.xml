@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/building_bg"
+    android:id="@+id/building_info_root">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginLeft="70dp">
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal">
+		    
+	        <TextView
+			    android:id="@+id/building_info_title_kor"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:layout_gravity="center_horizontal"
+			    android:text="현동홀" />
+			
+			<TextView
+			    android:id="@+id/building_info_title_eng"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="HyundongHall"/>
+
+		</LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/building_info_pic"
+	        android:layout_width="250dp"
+	        android:layout_height="156dp"
+	        android:layout_marginBottom="5dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/pic_hyundonghall" />
+	    
+	    
+	    <TextView
+	       android:id="@+id/building_activity_info"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:textSize="9dp"
+	       android:text="@string/building_info_hyundong"
+	    />
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="195dp"
+	    android:layout_height="276dp"
+	    android:layout_marginLeft="25dp" >
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginBottom="10dp"
+	            android:text="층별 안내"
+	            android:textSize="15dp" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="1F 입학.인재개발처" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="    교무처, 학생처" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="    사무처, 대학원" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="    대외협력팀" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="    상담센터" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="2F 기획처, 산학협력단" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="3F 상담심리사회복지학부, 국제어문학부" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="4F 글로벌리더십(GLS)학부" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="   국제지역연구소" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="13dp"
+	            android:text="   기도실" />
+	    </LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

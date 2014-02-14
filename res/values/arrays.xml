@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="month_list">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+	
+    <string-array name="notice_select_list">
+        <item>Title</item>
+        <item>Num</item>
+    </string-array>
+    
+    <string-array name="media_list">
+	    <item>전체</item>
+	    <item>홍보영상</item>
+	    <item>학부합창대회</item>
+	    <item>동아리(학회)</item>
+	</string-array>
+	
+	<string-array name="media_list_eng">
+	    <item>All</item>
+	    <item>Promotion</item>
+	    <item>MajorCeremony</item>
+	    <item>Club(Academy)</item>
+	</string-array>
+		
+    
+    
+	<string-array name="day_list">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+	</string-array>
+	
+	<string-array name="hall_list">
+	    <item>전체</item>
+		<item>현동</item>
+		<item>느헤미야</item>
+		<item>뉴턴</item>
+		<item>언어교육</item>
+		<item>학관</item>
+		<item>기숙사</item>
+		<item>오석관</item>
+		<item>올네이션스</item>
+		<item>기타</item>
+	</string-array>
+	
+	<string-array name="hall_list_eng">
+	    <item>All</item>
+		<item>Hyundong</item>
+		<item>Nehemiah</item>
+		<item>Newton</item>
+		<item>Global Language Center</item>
+		<item>Student Union</item>
+		<item>Dormitory</item>
+		<item>Oseok</item>
+		<item>All nations</item>
+		<item>Etc.</item>
+	</string-array>
+	
+	<string-array name="major_list">
+	    <item>전체</item>
+		<item>경경</item>
+		<item>공시</item>
+		<item>국제</item>
+		<item>GLS</item>
+		<item>GEA</item>
+		<item>기계</item>
+		<item>법</item>
+		<item>산업교육학부</item>
+		<item>산디</item>
+		<item>상사</item>
+		<item>생명</item>
+		<item>언정</item>
+		<item>전전</item>
+	</string-array>
+	
+	
+</resources>

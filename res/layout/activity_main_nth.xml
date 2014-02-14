@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/building_bg"
+    android:id="@+id/building_activity_root">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginLeft="70dp">
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal">
+		    
+	        <TextView
+			    android:id="@+id/building_activity_title_kor"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:layout_gravity="center_horizontal"
+			    android:text="뉴턴홀" />
+			
+			<TextView
+			    android:id="@+id/building_activity_title_eng"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="NEWTON HALL"/>
+
+		</LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/building_activity_pic"
+	        android:layout_width="250dp"
+	        android:layout_height="156dp"
+	        android:layout_marginBottom="5dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/pic_nth" />
+	    
+	    <TextView
+	       android:id="@+id/building_activity_info"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:textSize="9dp"
+	       android:text="@string/building_info_newton"
+	    />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="276dp"
+        android:layout_marginLeft="25dp" >
+
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_gravity="center_vertical">
+			<TextView 
+		       android:layout_height="wrap_content"
+		       android:layout_width="wrap_content"
+		       android:layout_gravity="center_horizontal"
+		       android:textSize="15dp"
+		       android:layout_marginBottom="10dp"
+		       android:text="층별 안내"/>
+			
+	        <TextView 
+		       android:layout_height="wrap_content"
+		       android:layout_width="wrap_content"
+		       android:textSize="13dp"
+		       android:text="1F  기계제어공학부"/>
+	        <TextView 
+		       android:layout_height="wrap_content"
+		       android:layout_width="wrap_content"
+		       android:textSize="13dp"
+		       android:text="2F  공간환경시스템공학부"/>
+	        <TextView 
+		       android:layout_height="wrap_content"
+		       android:layout_width="wrap_content"
+		       android:textSize="13dp"
+		       android:text="3F  전산전자공학부"/>
+	         <TextView 
+		       android:layout_height="wrap_content"
+		       android:layout_width="wrap_content"
+		       android:textSize="13dp"
+		       android:text="4F 전산전자공학부"/>
+	         
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>

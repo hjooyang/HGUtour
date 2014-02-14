@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/building_bg"
+    android:id="@+id/building_activity_root">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1"
+	    android:layout_marginTop="30dp"
+	    android:layout_marginLeft="70dp">
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal">
+		    
+	        <TextView
+			    android:id="@+id/building_activity_title_kor"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="20dp"
+			    android:layout_gravity="center_horizontal"
+			    android:text="학생회관" />
+			
+			<TextView
+			    android:id="@+id/building_activity_title_eng"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Student Union"/>
+
+		</LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/building_activity_pic"
+	        android:layout_width="250dp"
+	        android:layout_height="156dp"
+	        android:layout_marginBottom="5dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/pic_stu_union" />
+	    
+	    <TextView
+	       android:id="@+id/building_activity_info"
+	       android:layout_height="wrap_content"
+	       android:layout_width="wrap_content"
+	       android:textSize="9dp"
+	       android:text="@string/building_info_stu_union"
+	    />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="276dp"
+        android:layout_marginLeft="25dp" 
+        android:orientation="vertical">
+
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="55dp"
+	       >
+			<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:text="층별 안내" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="B1F 지하밴드연습실" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="1F   학생식당" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="       맘스키친(카페)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="        IBK 기업은행 출장소" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="2F   동아리방, 물음표카페" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="       중구난방 전시실" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="       다윗의장막 기도실" />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="30dp"
+	        >
+	        
+	        <ImageButton
+		        android:layout_height="50dp"
+		        android:layout_width="50dp"
+		        android:adjustViewBounds="true"
+				android:scaleType="fitXY"
+		        android:src="@drawable/icon_meal"
+		        android:id="@+id/icon_meal_stunion"/>
+
+	        <ImageButton
+	            android:id="@+id/icon_cafe_stunion"
+	            android:layout_width="55dp"
+	            android:layout_height="55dp"
+	            android:adjustViewBounds="true"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/icon_coffee" />
+	        
+	        <ImageButton
+	            android:id="@+id/icon_stunion_moreinfo"
+	            android:layout_width="55dp"
+	            android:layout_height="55dp"
+	            android:adjustViewBounds="true"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/icon_coffee" />
+	        
+	        
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>

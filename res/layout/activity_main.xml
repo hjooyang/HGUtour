@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hgu_background">
+    
+    <ImageButton
+        android:id="@+id/allnationshall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="178dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="160dp"
+        android:background="#00FF0000"
+        android:src="@drawable/allnationhall_xml" />
+
+    <ImageButton
+        android:id="@+id/ohseok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/allnationshall"
+        android:layout_alignLeft="@+id/allnationshall"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="108dp"
+        android:background="#00FF0000"
+        android:src="@drawable/ohseok_xml" />
+
+    <ImageButton
+        android:id="@+id/changbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginBottom="38dp"
+        android:layout_toLeftOf="@+id/ohseok"
+        android:background="#00FF0000"
+        android:src="@drawable/changbo_xml" />
+    
+    <ImageButton
+        android:id="@+id/dreamfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/allnationshall"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/allnationshall"
+        android:background="#00FF0000"
+        android:src="@drawable/dreamfield_xml" />
+    
+    <ImageButton
+        android:id="@+id/nh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dreamfield"
+        android:layout_alignRight="@+id/allnationshall"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="5dp"
+        android:background="#00FF0000"
+        android:src="@drawable/nh_xml" />
+
+    <ImageButton
+        android:id="@+id/hyundong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/changbo"
+        android:layout_alignRight="@+id/ohseok"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="30dp"
+        android:background="#00FF0000"
+        android:src="@drawable/hyundong_xml" />
+    
+    <ImageButton
+        android:id="@+id/nt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nh"
+        android:layout_alignLeft="@+id/hyundong"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="13dp"
+        android:background="#00FF0000"
+        android:src="@drawable/nt_xml" />
+
+    <ImageButton
+        android:id="@+id/chappel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hyundong"
+        android:layout_toRightOf="@+id/nh"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="15dp"
+        android:background="#00FF0000"
+        android:src="@drawable/chappel_xml" />
+
+     <ImageButton
+         android:id="@+id/chappel2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/chappel"
+         android:layout_alignLeft="@+id/ohseok"
+         android:layout_marginLeft="20dp"
+         android:layout_marginBottom="3dp"
+         android:background="#00FF0000"
+         android:src="@drawable/chappel_2_xml" />
+
+     <ImageButton
+         android:id="@+id/glc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/chappel2"
+         android:layout_toLeftOf="@+id/chappel"
+         android:background="#00FF0000"
+         android:src="@drawable/glc_xml" />
+
+     <ImageButton
+         android:id="@+id/vision_square"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/chappel"
+         android:layout_below="@+id/chappel2"
+         android:layout_marginRight="7dp"
+         android:background="#00FF0000"
+         android:src="@drawable/vision_square_xml" />
+
+     <ImageButton
+         android:id="@+id/school"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/nh"
+         android:layout_marginLeft="13dp"
+         android:layout_marginTop="8dp"
+         android:layout_toRightOf="@+id/ohseok"
+         android:background="#00FF0000"
+         android:src="@drawable/school_xml" />
+
+     <ImageButton
+         android:id="@+id/bt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/chappel2"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="17dp"
+         android:layout_toRightOf="@+id/dreamfield"
+         android:background="#00FF0000"
+         android:src="@drawable/bt_xml" />
+     
+     <ImageButton
+         android:id="@+id/creation"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/school"
+         android:layout_alignTop="@+id/chappel2"
+         android:layout_marginTop="3dp"
+         android:background="#00FF0000"
+         android:src="@drawable/creation_xml" />
+
+     <ImageButton
+         android:id="@+id/vision"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/school"
+         android:layout_alignTop="@+id/chappel2"
+         android:layout_marginTop="2dp"
+         android:layout_marginRight="30dp"
+         android:background="#00FF0000"
+         android:src="@drawable/visionhall_xml" />
+     
+     
+     <ImageButton
+         android:id="@+id/ld"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/bt"
+         android:layout_alignTop="@+id/bt"
+         android:layout_marginLeft="25dp"
+         android:background="#00FF0000"
+         android:src="@drawable/ld_xml" />
+
+     <ImageButton
+         android:id="@+id/plant"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/creation"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="7dp"
+         android:layout_marginBottom="2dp"
+         android:background="#00FF0000"
+         android:src="@drawable/powerplant_xml" />
+
+     <ImageButton
+         android:id="@+id/shalom"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/dreamfield"
+         android:layout_alignTop="@+id/creation"
+         android:background="#00FF0000"
+         android:src="@drawable/shalom_xml" />
+
+     <ImageButton
+         android:id="@+id/eben"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/vision"
+         android:layout_toLeftOf="@+id/creation"
+         android:background="#00FF0000"
+         android:src="@drawable/eben_xml" />
+
+     <ImageButton
+         android:id="@+id/grace"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/eben"
+         android:layout_toRightOf="@+id/bt"
+         android:layout_marginLeft="6dp"
+         android:layout_marginTop="7dp"
+         android:background="#00FF0000"
+         android:src="@drawable/grace_xml" />
+        
+      <ImageButton
+          android:id="@+id/onnuri_house"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_alignLeft="@+id/changbo"
+          android:layout_alignTop="@+id/school"
+          android:background="#00FF0000"
+          android:src="@drawable/onnuri_house_xml" />
+      
+      <ImageButton
+          android:id="@+id/nigodemo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ld"
+          android:layout_toRightOf="@+id/bt"
+          android:background="#00FF0000"
+          android:src="@drawable/nigodemo_xml" />
+
+      <ImageButton
+          android:id="@+id/hgu_younger_dorm"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/nigodemo"
+          android:layout_marginTop="6dp"
+          android:layout_toLeftOf="@+id/nh"
+          android:background="#00FF0000"
+          android:src="@drawable/hgu_younger_dorm_xml" />
+
+      <ImageButton
+          android:id="@+id/globalhouse"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/ld"
+          android:layout_alignTop="@+id/vision_square"
+          android:background="#00FF0000"
+          android:layout_marginTop="3dp"
+          android:src="@drawable/globalhouse_xml" />
+
+      <ImageButton
+          android:id="@+id/international_dorm"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/school"
+          android:layout_marginTop="3dp"
+          android:background="#00FF0000"
+          android:src="@drawable/international_dorm_xml" />
+
+      <ImageButton
+          android:id="@+id/ggdc"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/changbo"
+          android:layout_toRightOf="@+id/hgu_younger_dorm"
+          android:background="#00FF0000"
+          android:src="@drawable/ggdc_xml" />
+     
+      <ImageButton
+          android:id="@+id/hgu_younger_school"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="177dp"
+          android:layout_marginLeft="36dp"
+          android:background="#00FF0000"
+          android:src="@drawable/hgu_younger_school_xml" />
+
+      <ImageButton 
+          android:id="@+id/bar_media"
+          android:layout_width="60dp"
+          android:layout_height="20dp"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="12dp"
+          android:src="@drawable/hgu_bg_btn1"
+          android:layout_toLeftOf="@+id/hgu_younger_dorm"
+          />
+      
+      <ImageButton
+          android:id="@+id/bar_email"
+          android:layout_width="60dp"
+          android:layout_height="20dp"
+          android:layout_above="@+id/glc"
+          android:layout_toLeftOf="@+id/hgu_younger_dorm"
+          android:src="@drawable/hgu_bg_btn3"
+          />
+      
+      <ImageButton
+          android:id="@+id/bar_yakdo"
+          android:layout_width="60dp"
+          android:layout_height="20dp"
+          android:layout_alignTop="@+id/plant"
+          android:layout_toLeftOf="@+id/hgu_younger_dorm"
+          android:src="@drawable/hgu_bg_btn4"
+          />
+
+      <ImageButton
+          android:id="@+id/bar_tab"
+          android:layout_width="60dp"
+          android:layout_height="20dp"
+          android:layout_below="@+id/eben"
+          android:src="@drawable/hgu_bg_btn2"
+          android:layout_toLeftOf="@+id/hgu_younger_dorm" />
+   
+ </RelativeLayout>
+     

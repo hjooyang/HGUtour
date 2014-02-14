@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="software.engineering.hgutour"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/> 
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <activity android:name="Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+      
+         <service android:name="software.engineering.hgutour.Bgm">
+		      <intent-filter>﻿
+		       <action android:name="software.engineering.hgutour.bgm.service" />
+		       <category android:name="android.intent.category.DEFAULT"/>
+		      </intent-filter>
+		  </service>
+         
+         
+         <activity
+            android:name="software.engineering.hgutour.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+         </activity>
+          
+		  <activity 
+             android:name="software.engineering.hgutour.BuildingInfoActivity"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+           </activity>
+         
+        <activity android:name="software.engineering.hgutour.yakdo.YakdoMain"
+		    android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="software.engineering.hgutour.yakdo.highterminal"></activity>
+        <activity android:name="software.engineering.hgutour.yakdo.outterminal"></activity>
+        <activity android:name="software.engineering.hgutour.yakdo.train"></activity>
+        <activity android:name="software.engineering.hgutour.yakdo.air"></activity>
+        <activity android:name="software.engineering.hgutour.yakdo.car"></activity>
+        
+        
+        <activity android:name="software.engineering.hgutour.aboutHGU.aboutHGUmain"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="software.engineering.hgutour.aboutHGU.history"
+              android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" ></activity>
+        <activity android:name="software.engineering.hgutour.aboutHGU.Vision"></activity>
+        <activity android:name="software.engineering.hgutour.aboutHGU.Culture"></activity>
+        <activity android:name="software.engineering.hgutour.aboutHGU.Education"></activity>
+        
+        
+        <activity android:name="software.engineering.hgutour.events.eventsMain"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="software.engineering.hgutour.events.hanso"></activity>
+        
+       
+        
+        <activity
+		    android:name="software.engineering.hgutour.media.MediaMain"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape"/>
+        
+		<activity
+		    android:name="software.engineering.hgutour.media.MediaPlay"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+		
+		<activity
+		    android:name="software.engineering.hgutour.email.sendEmail"
+		    android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+		
+		<activity 
+		    android:name="software.engineering.hgutour.mealANDcoffee.mealsParser"
+		    android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>	
+            	
+		<activity android:name=".mealANDcoffee.hisbeansParser"></activity>
+        
+    </application>
+
+</manifest>

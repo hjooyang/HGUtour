@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">"
+    
+    <Button 
+        android:id="@+id/hanso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="한소품"
+        android:textSize="15dip"/>
+    
+    <Button 
+        android:id="@+id/gimpact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="G-IMPACT"
+        android:textSize="15dip"/>
+    
+    <Button 
+        android:id="@+id/engcamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="English Camp"
+        android:textSize="15dip"/>
+    
+    
+    
+    "
+    
+    
+
+</LinearLayout>
